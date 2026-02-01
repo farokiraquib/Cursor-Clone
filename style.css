@@ -1,6 +1,7 @@
 :root{
     --bg-color: rgb(20, 18, 11);
     --txt-color:#edecec;
+    --max-w:1300px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Italianno&display=swap');
 
@@ -14,11 +15,14 @@ body{
     background-color: var(--bg-color);
     font-family:  "Carrois Gothic", sans-serif;
     height: 120vh;
+    color: var(--txt-color);
 }
 
 header{
     position: fixed;
     width: 100%;
+    top: 0;
+    bottom: 0;
 }
 
 nav{
@@ -96,6 +100,47 @@ nav{
 }
 
 #but-one:hover{
-    background-color: rgb(32, 29, 21);
+    background-color: rgb(32, 29, 21);}
 
                               /* ---------------Header section Done------------ */
+
+
+main{
+    max-width: var(--max-w);
+    margin: auto;
+}
+
+.first-container{
+    
+    margin-top: 170px;
+    font-weight:lighter ;
+    /* max-width:var(--max-w) ; */
+}
+.first-container h1{
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.cta button{
+    color: var(--bg-color);
+    text-decoration: none;
+    box-shadow: none;
+    padding: 12px 30px;
+    margin-top: 23px;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.first-container-info{
+    margin-top: 56px;
+}
+
+.first-container-info img{
+    border-radius: 5px;
+
+}
