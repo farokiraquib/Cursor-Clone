@@ -1,0 +1,81 @@
+:root{
+    --bg-color: rgb(20, 18, 11);
+    --txt-color:#edecec;
+}
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Italianno&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    font-family:  "Carrois Gothic", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1300px;
+    height: 52px;
+}
+
+.logo {
+    padding: 5px 0px;
+}
+
+.midle-nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+
+
+    
+}
+
+.midle-nav ul li{
+    list-style: none;
+}
+
+.midle-nav ul a{
+    text-decoration: none;
+    color: var(--txt-color);
+    padding: 5.6px 15px;
+    font-size: 14px;
+    
+}
+
+
+.end-nav{
+    display: flex;
+    justify-content: center;
+    gap: 7.5px;
+}
+
+
+#but-one{
+  background-color: var(--bg-color);
+  box-shadow: none;
+  color: var(--txt-color);
+  font-size: 14px;
+  cursor: pointer;
+  border: 0.5px solid #515151;
+  border-radius: 20px;
+  padding: 5.88px 10.5px;
+}
+#but-two{
+  background-color: var(--txt-color);
+  box-shadow: none;
+  color: var(--bg-color);
+  font-size: 14px;
+  cursor: pointer;
+  border: 0.5px solid #edecec;
+  border-radius: 20px;
+  padding: 5.88px 12.5px;
+}
+
+                              /* ---------------Header section Done------------ */
