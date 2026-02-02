@@ -1,31 +1,33 @@
-:root{
+:root {
     --bg-color: rgb(20, 18, 11);
-    --txt-color:#edecec;
-    --max-w:1300px;
+    --txt-color: #edecec;
+    --max-w: 1300px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Italianno&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: var(--bg-color);
-    font-family:  "Carrois Gothic", sans-serif;
+    font-family: "Carrois Gothic", sans-serif;
     height: 120vh;
     color: var(--txt-color);
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 69;
 }
 
-nav{
+nav {
     background-color: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -39,95 +41,99 @@ nav{
     padding: 5px 0px;
 }
 
-.midle-nav ul{
+.midle-nav ul {
     display: flex;
     justify-content: space-between;
     margin-left: 55px;
 
 
-    
+
 }
 
-.midle-nav ul li{
+.midle-nav ul li {
     list-style: none;
 }
 
-.midle-nav ul a{
+.midle-nav ul a {
     text-decoration: none;
     color: var(--txt-color);
     padding: 5.6px 15px;
     font-size: 14px;
-    
+
 }
 
-.midle-nav ul a:hover{
-    color:#9e9e9e ;
+.midle-nav ul a:hover {
+    color: #9e9e9e;
 }
 
 
-.end-nav{
+.end-nav {
     display: flex;
     justify-content: center;
     gap: 7.5px;
 }
 
 
-#but-one{
-  background-color: var(--bg-color);
-  box-shadow: none;
-  color: var(--txt-color);
-  font-size: 14px;
-  cursor: pointer;
-  border: 0.5px solid #515151;
-  border-radius: 20px;
-  padding: 5px 10.5px;
-  font-weight: 500;
-}
-#but-two{
-  background-color: var(--txt-color);
-  box-shadow: none;
-  color: var(--bg-color);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-  border: 0.5px solid #edecec;
-  border-radius: 20px;
-  padding: 5px 12px;
+#but-one {
+    background-color: var(--bg-color);
+    box-shadow: none;
+    color: var(--txt-color);
+    font-size: 14px;
+    cursor: pointer;
+    border: 0.5px solid #515151;
+    border-radius: 20px;
+    padding: 5px 10.5px;
+    font-weight: 500;
 }
 
-#but-two:hover{
+#but-two {
+    background-color: var(--txt-color);
+    box-shadow: none;
+    color: var(--bg-color);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0.5px solid #edecec;
+    border-radius: 20px;
+    padding: 5px 12px;
+}
+
+#but-two:hover {
     background-color: #cacaca;
 }
 
-#but-one:hover{
-    background-color: rgb(32, 29, 21);}
+#but-one:hover {
+    background-color: rgb(32, 29, 21);
+}
 
-                              /* ---------------Header section Done------------ */
+/* ---------------Header section Done------------ */
 
 
-main{
+main {
     max-width: var(--max-w);
     margin: auto;
 }
 
-.first-container{
-    
+.first-container {
+
     margin-top: 170px;
-    font-weight:lighter ;
+    font-weight: lighter;
     /* max-width:var(--max-w) ; */
 }
-.first-container h1{
+
+.first-container h1 {
     text-align: left;
     font-size: 24px;
     line-height: 30px;
 
 }
-.cta{
+
+.cta {
     margin-top: 33px;
-    
+
 }
 
-#cta-main{
+#cta-main {
     color: var(--bg-color);
     background-color: var(--txt-color);
     text-decoration: none;
@@ -138,29 +144,31 @@ main{
     text-align: center;
     border: none;
 }
-#cta-main:hover{
+
+#cta-main:hover {
     cursor: pointer;
     background-color: #cecbcb;
 }
 
-.first-container-info{
+.first-container-info {
     margin-top: 72px;
-   position: relative;
-   margin-bottom: 67px;
+    position: relative;
+    margin-bottom: 67px;
 }
 
-.first-container-info img{
+.first-container-info img {
     border-radius: 5px;
-  
+
 
 }
 
-.overlay-img-one{
+.overlay-img-one {
     position: absolute;
     top: 116px;
-    left: 136px;  
+    left: 136px;
 }
-.overlay-img-two{
+
+.overlay-img-two {
     position: absolute;
     bottom: 79px;
     right: 70px;
@@ -168,29 +176,31 @@ main{
 
 /* ----------hero section end------------- */
 
-.Trusted-by{
+.Trusted-by {
     max-width: var(--max-w);
-    margin-top: ;
+    /* margin-top: ; */
     text-align: center;
 }
-.Trusted-by h5{
-    margin-bottom:22.4px ;
+
+.Trusted-by h5 {
+    margin-bottom: 22.4px;
     font-weight: 200;
     font-size: 14.5px;
 }
 
-.all-trustedby-logos{
+.all-trustedby-logos {
     display: grid;
-    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-columns: repeat(8, 1fr);
     column-gap: 10px;
+    padding-bottom: 33.6px;
 }
 
-.all-trustedby-logos img{
+.all-trustedby-logos img {
     height: 40px;
     max-width: 100%;
 }
 
-.trusted-by-logos{
+.trusted-by-logos {
     height: 100px;
     padding: 7.5px;
     row-gap: 10px;
@@ -199,3 +209,77 @@ main{
     justify-content: center;
     background-color: rgb(27, 25, 19);
 }
+
+/* -----------trusted-section-end------ */
+
+
+.feature-section {
+    max-width: var(--max-w);
+    width: 100%;
+    margin: auto;
+    margin-top: 66px;
+
+}
+
+.feature-common {
+    height: 815px;
+    width: 100%;
+    background-color: rgb(27, 25, 19);
+
+}
+
+.first-feature {
+    padding: 17.5px;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    align-items: center;
+    border-radius: 7px;
+}
+
+.content-feature-one {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.first-heading-first-feature {
+    color: rgb(237, 236, 236);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.second-heading-first-feature {
+    color: #838383;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.content-feature-one a{
+    color: rgb(245, 78, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.img-feature-one {
+    overflow: hidden;
+    grid-column-start: 9;
+    grid-column-end: -1;
+    position: relative;
+}
+
+.img-feature-one img {
+    border-radius: 5px;
+
+}
+
+.agent-img-feature-one{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+ }
+
+
+ /* ---first-feature-done */
