@@ -22,7 +22,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    /* bottom: 0; */
+    z-index: 69;
 }
 
 nav{
@@ -146,6 +146,7 @@ main{
 .first-container-info{
     margin-top: 72px;
    position: relative;
+   margin-bottom: 67px;
 }
 
 .first-container-info img{
@@ -157,10 +158,44 @@ main{
 .overlay-img-one{
     position: absolute;
     top: 116px;
-    left: 136px;
+    left: 136px;  
 }
 .overlay-img-two{
     position: absolute;
     bottom: 79px;
     right: 70px;
+}
+
+/* ----------hero section end------------- */
+
+.Trusted-by{
+    max-width: var(--max-w);
+    margin-top: ;
+    text-align: center;
+}
+.Trusted-by h5{
+    margin-bottom:22.4px ;
+    font-weight: 200;
+    font-size: 14.5px;
+}
+
+.all-trustedby-logos{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    column-gap: 10px;
+}
+
+.all-trustedby-logos img{
+    height: 40px;
+    max-width: 100%;
+}
+
+.trusted-by-logos{
+    height: 100px;
+    padding: 7.5px;
+    row-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 25, 19);
 }
