@@ -225,16 +225,15 @@ main {
     height: 815px;
     width: 100%;
     background-color: rgb(27, 25, 19);
-
-}
-
-.first-feature {
     padding: 17.5px;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     align-items: center;
     border-radius: 7px;
+
 }
+
+
 
 .content-feature-one {
     display: flex;
@@ -283,3 +282,108 @@ main {
 
 
  /* ---first-feature-done */
+
+ .second-feature{
+    margin-top: 86px;
+ }
+
+ .content-feat-two {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 17;
+    grid-column-end: -1 ;
+    padding-left: 30px;
+}
+
+.img-feature-two{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 17 ;
+    
+}
+.img-feature-two img{
+   border-radius: 7px;
+
+}
+
+.short-feat-two-img{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-radius: 7px;
+}
+
+ .content-feat-two a{
+    color: rgb(245, 78, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.first-heading-second-feature {
+    color: rgb(237, 236, 236);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.second-heading-second-feature {
+    color: #838383;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+/* ---second-feature-page-done------- */
+
+.third-feature{
+    margin-top: 86px;
+
+}
+
+.third-feature-content {
+    display: flex;
+    flex-direction: column;
+    grid-column-start:1;
+    grid-column-end:9 ;
+}
+
+.third-feature-content a{
+    color: rgb(245, 78, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.first-heading-third-feature {
+    color: rgb(237, 236, 236);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.second-heading-third-feature {
+    color: #838383;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.third-feature-img{
+    grid-column-start: 9;
+    grid-column-end: -1;
+    position: relative;
+}
+.third-feature-img img{
+        border-radius: 7px;
+}
+
+.first-img-third-feature{
+   position: absolute;
+   top: 64px;
+   left: 58px;
+}
+
+.second-img-third-feature{
+    position: absolute;
+    right: 56px;
+    top: 322px;
+}
