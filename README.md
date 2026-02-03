@@ -1,4 +1,4 @@
-# Cursor Website Clone (Desktop Version) 
+# Cursor Website Clone
 
 A frontend clone of the [Cursor](https://cursor.com) AI code editor interface, built entirely with **pure HTML and CSS**.
 
