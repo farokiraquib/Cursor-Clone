@@ -9,7 +9,18 @@ This project was created as an assignment to demonstrate proficiency in CSS layo
 ## 🚀 Live Demo
 **[Click here to view the hosted project](https://cursoor.netlify.app/)**
 
-
+## Section Created 
+1.  **Top Navigation Bar:** Sticky header with Logo, navigation links, and primary CTA.
+2.  **Hero Section:** Main headline, description, CTA buttons, and a large product screenshot.
+3.  **Trusted By:** A marquee row displaying company logos.
+4.  **Feature Sections:** Three distinct blocks using a two-column layout (alternating text + image positions).
+5.  **Feature Cards:** A grid layout displaying 3–4 detailed feature cards with titles and descriptions.
+6.  **Testimonials:** Social proof section featuring quote cards with user names and roles.
+7.  **Use Cases:** Cards highlighting specific user stories with images and short text.
+8.  **Changelog:** A timeline list of recent updates and dates.
+9.  **Team / About:** Large team image with a brief description and CTA.
+10. **Final CTA:** A high-impact section with a big heading and a single action button.
+11. **Footer:** Multi-column layout containing site links, copyright, and company info.
 
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic structure.
