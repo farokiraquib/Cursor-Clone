@@ -218,6 +218,7 @@ main {
     width: 100%;
     margin: auto;
     margin-top: 66px;
+    padding-bottom: 67px;
 
 }
 
@@ -232,7 +233,20 @@ main {
     border-radius: 7px;
 
 }
+.feature-common:hover{
+    cursor: pointer;
+    background-color:  rgb(29, 26, 19);
 
+}
+
+.feature-common img:hover{
+    cursor: default;
+}
+
+.feature-common a:hover{
+    cursor: pointer;
+    color: rgb(191, 65, 6);
+}
 
 
 .content-feature-one {
@@ -386,4 +400,69 @@ main {
     position: absolute;
     right: 56px;
     top: 322px;
+}
+/* --feature section Done------ */
+
+
+
+.review-section{
+    max-width: var(--max-w);
+    width: 100%;
+    height: 800px;
+    padding: 67px 0 67px 0;
+}
+
+.heading-review{
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.heading-review h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.grid-in-review-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.card-in-review-section{
+    display: flex;
+    height: 278px;
+    width: 426px;
+    flex-direction: column;
+    background-color: rgb(27, 25, 19);
+    padding: 17.5px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.card-in-review-section p{
+    font-size: 16px;
+    line-height: 24px;
+    height: 158px;
+}
+
+.img-in-review{
+    display: flex;
+    margin-top: 45px;
+    border-radius: 7px;
+}
+
+.img-in-review img{
+    margin-right: 13px;
+    border-radius: 7px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.img-caption-review{
+    line-height: 24px;
+}
+
+.fent-text-in-review{
+    color: #a0a0a0;
 }
