@@ -561,7 +561,13 @@ margin-bottom: 22.4px;
  padding-bottom: 20px;
  padding-top: 16px;
  line-height: 24px;
+    cursor: pointer;
+
  
+}
+
+.grid-in-changelog:hover{
+    background-color: rgb(32, 31, 31);
 }
 
 .top-grid{
@@ -598,4 +604,50 @@ margin-bottom: 22.4px;
  font-weight: 400;
  cursor: pointer;
  display: inline-flex;
+}
+
+/*-------------------------changelog done------------ */
+
+.team{
+    max-width: var(--max-w);
+    width: 100%;
+    height: 1074px;
+    margin-top: 74px;
+    
+}
+
+.content-team{
+    min-width: 810px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 56px;
+}
+.content-team h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-bottom: 22px;
+}
+
+.btn-team{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-team button{
+ font-size: 16px;
+ padding: 12.48px 21.6px 12.8px 21.6px ;
+ color: rgb(20, 18, 11);
+ font-weight: 400;
+ border-radius: 25px;
+ border: none;
+ cursor: pointer;
+}
+.btn-team button:hover{
+    background-color: #dbdbdb;
+}
+
+.img-team{
+    border-radius: 7.5px;
+    cursor: pointer;
 }
