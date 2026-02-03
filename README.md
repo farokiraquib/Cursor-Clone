@@ -23,18 +23,6 @@ This project was created as an assignment to demonstrate proficiency in CSS layo
 * **Google Icons:** Integrated Material Icons for the UI elements.
 * **Hover Effects:** Interactive buttons and navigation items.
 
-## 📂 Project Structure
-
-```bash
-Cursor-Clone/
-│
-├── 📄 index.html        # Main HTML file (Structure & Layout)
-├── 🎨 style.css         # Main Stylesheet (Flexbox, Grid, Variables)
-├── 📂 resources/           # Static assets folder
-│   ├── 🖼️ logo.png      # Cursor Logo
-│   └── 📸 preview.png   # Screenshot used in README
-└── 📝 README.md         # Documentation & Live Link
-
 ## 🧠 What I Learned
 * How to structure a complex landing page using **semantic HTML tags**.
 * Managing strict layout requirements using **CSS Grid** and **Flexbox**.
