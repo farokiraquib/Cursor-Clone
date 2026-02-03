@@ -9,7 +9,6 @@ This project was created as an assignment to demonstrate proficiency in CSS layo
 ## 🚀 Live Demo
 **[Click here to view the hosted project](https://cursoor.netlify.app/)**
 
-![Project Screenshot](assets/screenshot.png)
 
 
 ## 🛠️ Tech Stack
