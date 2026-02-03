@@ -22,6 +22,9 @@ This project was created as an assignment to demonstrate proficiency in CSS layo
 10. **Final CTA:** A high-impact section with a big heading and a single action button.
 11. **Footer:** Multi-column layout containing site links, copyright, and company info.
 
+    ## Fonts Used
+    CursorGothic_Regular
+
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic structure.
 * **CSS3:** Custom styling, positioning, and layout.
