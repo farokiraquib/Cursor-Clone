@@ -494,6 +494,7 @@ margin-bottom: 22.4px;
     padding: 17.5px;
     border-radius: 7.5px;
     align-items: center;
+    cursor: pointer;
 }
 .card img{
     border-radius: 7.5px;
@@ -529,4 +530,72 @@ margin-bottom: 22.4px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
+}
+
+/*--------------stay on fronteir finished-------- */
+
+.changelog{
+    max-width: var(--max-w);
+    width: 100%;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.changelog-heading h2{
+    margin-bottom: 22.4px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.changelog-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+}
+
+.grid-in-changelog{
+ background-color: rgb(27, 25, 19);
+ height: 120px;
+ color: rgb(237, 236, 236);
+ padding: 17.5px;
+ padding-bottom: 20px;
+ padding-top: 16px;
+ line-height: 24px;
+ 
+}
+
+.top-grid{
+    display: flex;
+   column-gap: 13px;
+   color: #8b8b8b;
+   text-align: center;
+   
+}
+
+.top-grid p{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    padding: 3.9px 9.1px;
+    border: 1px solid #8b8b8b ;
+    border-radius: 16px;
+    width: 40px;
+    text-align: center;
+}
+
+.grid-in-changelog > p{
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.changelog > a{
+ color: rgb(245, 78, 0);
+ text-decoration: none;
+ margin-top: 22.4px;
+ font-size: 16px;
+ font-weight: 400;
+ cursor: pointer;
+ display: inline-flex;
 }
