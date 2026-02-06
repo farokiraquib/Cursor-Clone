@@ -23,7 +23,7 @@ This project was created as an assignment to demonstrate proficiency in CSS layo
 11. **Footer:** Multi-column layout containing site links, copyright, and company info.
 
     ## Fonts Used
-    CursorGothic_Regular
+    CursorGothic_Regular and Carrois gothic
 
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic structure.
