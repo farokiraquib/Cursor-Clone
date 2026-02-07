@@ -682,6 +682,7 @@ font-weight: 400;
 border: none;
 border-radius: 25px;
 padding: 12.8px 21.6px;
+    curser:poiter;
 }
 
 .btn-final-cta button:hover{
